@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Root = styled.div`
   &:not(:last-child) {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 `;
 
