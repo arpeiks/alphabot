@@ -13,6 +13,14 @@ const ConversationGroup: React.FC<Props> = ({ title }) => {
       <Title>{title}</Title>
       <ConversationItem />
       <ConversationItem />
+      <ConversationItem />
+      <ConversationItem />
+      <ConversationItem />
+      <ConversationItem />
+      <ConversationItem />
+      <ConversationItem />
+      <ConversationItem />
+      <ConversationItem />
     </Root>
   );
 };

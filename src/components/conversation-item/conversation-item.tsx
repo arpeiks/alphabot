@@ -5,7 +5,7 @@ import { Root, Text, Badge, Avatar } from "./conversation-item.styles";
 const ConversationItem = () => {
   return (
     <Root>
-      <Avatar />
+      <Avatar style={{ background: "orange" }}>AB</Avatar>
       <div style={{ display: "flex" }}>
         <div>
           <Text className="name">Fio Steinle</Text>
@@ -21,7 +21,7 @@ const ConversationItem = () => {
             justifyContent: "space-between",
           }}
         >
-          <div style={{ marginBottom: "0.4rem" }}>2 hours ago</div>
+          <div style={{ marginBottom: "0.4rem" }}>11:58 am</div>
           <Badge badgeContent={4} color="primary" />
         </div>
       </div>
